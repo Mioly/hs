@@ -27,19 +27,50 @@
 				background-position: center 0;
 			}
 			
-			.end img{
+			/*.end img{
 				width: 90px;
 				height: auto;
 				/*max-height: 50%;*/
-				margin-top:680px ;
-				margin-left: 835px;
+				/*margin-top:680px ;*/
+				/*margin-left: 835px;*/
 				/*position: absolute;*/
+			/*}*/
+			
+			#fuhao{
+				position: absolute;
+    			z-index:1;
+    			margin-top: 1300px;
+    			margin-left: 475px;
+    			animation: action 1.5s linear infinite;
 			}
-		
-		
+			
+			@keyframes action{
+				25%{
+					opacity: 0.5;
+				}
+				50%{
+					opacity: 0.1;
+				}
+				75%{
+					opacity: 0.5;
+				}
+				100%{
+					opacity: 0.9;
+				}
+			}
+				
+			#guanwang{
+				position: absolute;
+    			z-index:1;
+    			margin-top: 1500px;
+    			margin-left: 410px;
+			}
     	</style>
 	</head>
 	<body>
-
+		<div id="fuhao"><img src="res/fuhao.png" /></div>
+		<div id="guanwang">
+			<a href="https://www.oceanexpo.com.cn"><img src="res/guanwang.png" /></a>
+		</div>
 	</body>
 </html>
